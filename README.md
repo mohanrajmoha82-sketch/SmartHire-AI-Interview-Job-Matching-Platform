@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # **🤖 SmartHire – AI Interview \& Job Matching Platform**
 
 
