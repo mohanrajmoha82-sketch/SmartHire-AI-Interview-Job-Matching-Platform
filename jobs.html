@@ -1,0 +1,205 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Interview Jobs</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="job-section">
+
+    <div class="section-title">
+        <div>
+            <h2>💼 Recommended Jobs</h2>
+            <p>Jobs based on your interview score and selected role</p>
+        </div>
+    </div>
+
+    <div class="job-search">
+
+        <input
+            type="text"
+            id="jobSearch"
+            placeholder="Search job, skill or company..."
+        >
+
+        <select id="locationFilter">
+            <option value="all">All Locations</option>
+            <option value="Salem">Salem</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Coimbatore">Coimbatore</option>
+            <option value="Bangalore">Bangalore</option>
+        </select>
+
+        <button
+            onclick="searchJobs()"
+            class="primary-btn">
+            🔍 Search
+        </button>
+
+    </div>
+
+    <div id="jobList" class="job-list"></div>
+
+</section>
+<script src="js/jobs.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Job Search</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/logo.png">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        AI<span>Interview</span>
+    </div>
+
+    <div class="nav-actions">
+
+        <button id="themeBtn" class="theme-btn">
+            🌙
+        </button>
+
+        <button
+            onclick="location.href='index.html'"
+            class="secondary-btn">
+            🏠 Home
+        </button>
+
+    </div>
+
+</header>
+
+
+<main class="jobs-container">
+
+    <section class="jobs-header">
+
+        <h1>💼 Find Your Next Job</h1>
+
+        <p>
+            Search live job opportunities based on your skills
+        </p>
+
+    </section>
+
+
+    <!-- SEARCH -->
+
+    <section class="job-search-card">
+
+        <input
+            type="text"
+            id="keyword"
+            placeholder="Search Python, Django, Developer..."
+        >
+
+        <input
+            type="text"
+            id="country"
+            placeholder="Country code e.g. IN"
+            value="IN"
+            maxlength="2"
+        >
+
+        <button
+            id="searchBtn"
+            class="primary-btn">
+
+            🔍 Search Jobs
+
+        </button>
+
+    </section>
+
+
+    <!-- SCORE -->
+
+    <section class="score-banner">
+
+        <div>
+
+            <span>Your Interview Score</span>
+
+            <strong id="userScore">
+                0%
+            </strong>
+
+        </div>
+
+        <p id="scoreMessage">
+            Complete an interview to get better job matching.
+        </p>
+
+    </section>
+
+
+    <!-- LOADING -->
+
+    <div
+        id="loading"
+        class="loading"
+        style="display:none;">
+
+        Loading jobs...
+
+    </div>
+
+
+    <!-- ERROR -->
+
+    <div
+        id="errorMessage"
+        class="error-message"
+        style="display:none;">
+
+    </div>
+
+
+    <!-- JOB LIST -->
+
+    <section>
+
+        <div class="jobs-result-header">
+
+            <h2>
+                Available Jobs
+            </h2>
+
+            <span id="jobCount">
+                0 jobs
+            </span>
+
+        </div>
+
+
+        <div
+            id="jobList"
+            class="job-list">
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="js/jobs.js"></script>
+
+</body>
+
+</html>

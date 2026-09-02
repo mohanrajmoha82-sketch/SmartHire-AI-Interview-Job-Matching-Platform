@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Interview Simulator</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/logo.png">
+
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo">AI<span>Interview</span></div>
+
+    <button id="themeBtn" class="theme-btn">🌙</button>
+</header>
+
+<main class="hero">
+
+    <section class="hero-content">
+
+        <div class="badge">
+            🚀 Smart Interview Practice
+        </div>
+
+        <h1>
+            Prepare Smarter.<br>
+            <span>Interview Better.</span>
+        </h1>
+
+        <p>
+            Practice technical interviews, improve your knowledge,
+            and track your performance with our AI Interview Simulator.
+        </p>
+
+        <div class="stats">
+
+            <div>
+                <strong>50+</strong>
+                <small>Questions</small>
+            </div>
+
+            <div>
+                <strong>4</strong>
+                <small>Roles</small>
+            </div>
+
+            <div>
+                <strong>3</strong>
+                <small>Levels</small>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="setup-card">
+
+        <h2>Start Your Interview</h2>
+
+        <p class="subtitle">
+            Select your preferred interview settings
+        </p>
+
+        <label>Job Role</label>
+
+        <select id="role">
+
+            <option value="python">
+                Python Developer
+            </option>
+
+            <option value="django">
+                Django Developer
+            </option>
+
+            <option value="frontend">
+                Frontend Developer
+            </option>
+
+            <option value="fullstack">
+                Full Stack Developer
+            </option>
+
+        </select>
+
+
+        <label>Difficulty</label>
+
+        <select id="difficulty">
+
+            <option value="easy">
+                Easy
+            </option>
+
+            <option value="medium">
+                Medium
+            </option>
+
+            <option value="hard">
+                Hard
+            </option>
+
+        </select>
+
+
+        <label>Number of Questions</label>
+
+        <select id="questionCount">
+
+            <option value="10">10 Questions</option>
+            <option value="20">20 Questions</option>
+            <option value="30">30 Questions</option>
+            <option value="50">50 Questions</option>
+
+        </select>
+
+
+        <button id="startBtn" class="primary-btn">
+            Start Interview →
+        </button>
+
+    </section>
+
+</main>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>

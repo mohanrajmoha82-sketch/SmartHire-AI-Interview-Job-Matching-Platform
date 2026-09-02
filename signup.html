@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up - AI Interview</title>
+    <link rel="icon" href="image/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="auth-container">
+
+        <div class="auth-card">
+
+            <div class="auth-logo">
+                AI<span>Interview</span>
+            </div>
+
+            <h1>Create Account</h1>
+
+            <p class="auth-subtitle">
+                Start your interview preparation journey
+            </p>
+
+
+            <form id="signupForm">
+
+                <div class="form-group">
+
+                    <label>Full Name</label>
+
+                    <input type="text" id="signupName" placeholder="Enter your name" required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>Email</label>
+
+                    <input type="email" id="signupEmail" placeholder="Enter your email" required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>Password</label>
+
+                    <input type="password" id="signupPassword" placeholder="Create password" required minlength="6">
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>Confirm Password</label>
+
+                    <input type="password" id="confirmPassword" placeholder="Confirm password" required>
+
+                </div>
+
+
+                <button type="submit" class="auth-btn">
+
+                    Create Account
+
+                </button>
+
+            </form>
+
+
+            <p id="signupMessage" class="auth-message">
+            </p>
+
+
+            <div class="auth-footer">
+
+                Already have an account?
+
+                <a href="login.html">
+                    Login
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="js/auth.js"></script>
+
+</body>
+
+</html>
