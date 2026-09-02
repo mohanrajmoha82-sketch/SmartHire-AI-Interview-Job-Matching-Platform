@@ -229,7 +229,7 @@ if (loginForm) {
                 function() {
 
                     window.location.href =
-                        "home.html";
+                        "page.html";
 
                 },
                 800
