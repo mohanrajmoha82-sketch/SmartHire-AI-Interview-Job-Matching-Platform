@@ -179,7 +179,7 @@ SmartHire-AI-Interview-Job-Matching-Platform/
 
 
 
-            🌐 SmartHire
+&#x20;       🌐 SmartHire
 
 &#x20;                  │
 
