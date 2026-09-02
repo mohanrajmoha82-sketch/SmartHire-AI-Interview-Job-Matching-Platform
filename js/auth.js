@@ -133,7 +133,7 @@ if (signupForm) {
                 function() {
 
                     window.location.href =
-                        "login.html";
+                        "index.html";
 
                 },
                 1200
