@@ -472,4 +472,3 @@ SmartHire-AI-Interview-Job-Matching-Platform/
 
 Wedsite Link  https://mohanrajmoha82-sketch.github.io/SmartHire-AI-Interview-Job-Matching-Platform/
 
->>>>>>> 57eef186d6b897e110e8dcf0ebf6cc82176a47a9
